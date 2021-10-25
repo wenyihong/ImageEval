@@ -96,7 +96,7 @@ if __name__ == "__main__":
     #     namedict = json.load(f)
 
     # funct(namedict, blur_r=blur_r, type=type, key=key, image_dir='/dataset/fd5061f6/cogview/mnt/sfs_turbo/cogview2/')
-    with open("selected_caps_cogview_v2.txt", 'r') as f:
+    with open("elected_caps_cogview_v2.txt", 'r') as f:
         namedict = json.load(f)
 
     funct(namedict, blur_r=blur_r, type=type, key=key, image_dir='')
